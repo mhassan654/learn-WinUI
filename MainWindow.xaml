@@ -6,14 +6,16 @@
         xmlns:local="clr-namespace:StackPanel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <StackPanel>
         <TextBlock HorizontalAlignment="Center" Margin="20" Text="Hello world"/>
         
-        <ListBox>
+        <ListBox Height="100" Width="100">
             <ListBoxItem Content="item 1"/>
             <ListBoxItem Content="item 2"/>
             <ListBoxItem Content="item 3"/>
         </ListBox>
+        
+        <Button Content="Click Me" Click="ButtonBase_OnClick"></Button>
 
-    </Grid>
+    </StackPanel>
 </Window>

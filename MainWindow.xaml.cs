@@ -24,5 +24,10 @@ namespace StackPanel
         {
             InitializeComponent();
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Thanks for checking on mae!");
+        }
     }
 }
