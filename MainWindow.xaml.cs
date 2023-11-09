@@ -29,5 +29,10 @@ namespace StackPanel
         {
             MessageBox.Show("Thanks for checking on mae!");
         }
+
+        private void UIElement_OnMouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Mouse button went up / wa released");
+        }
     }
 }
